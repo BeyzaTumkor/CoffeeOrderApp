@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CoffeeOrder.Views.Customize">
+
+    <StackLayout BackgroundColor="#f7e7ce" Padding="10,0,10,15">
+        <ScrollView>
+            <Frame Margin="10,15,10,10" HeightRequest="596" CornerRadius="55" HasShadow="True" BackgroundColor="#faf2e4">
+               <StackLayout>
+                   <Label x:Name="name" HorizontalTextAlignment="Center" TextColor="#92623a" FontSize="Title"/>
+                   <Frame CornerRadius="50" Padding="0" IsClippedToBounds="True" HorizontalOptions="Center" HasShadow="False" Margin="15" >
+                         <Image x:Name="CusPic" HeightRequest="200"  />
+                    </Frame>
+                   <Label Text="Size:" TextColor="#92623a" HorizontalTextAlignment="Start" Margin="20,-5,0,-10"/>
+                   <Frame IsClippedToBounds="True" Padding="0" Margin="15" CornerRadius="17" HasShadow="False" HeightRequest="40">
+                        <Picker x:Name="sizePicker" BackgroundColor="#f2e0bf" TextColor="#92623a" HorizontalTextAlignment="Center"/>
+                   </Frame>
+                   <Label Text="Milk:" TextColor="#92623a" HorizontalTextAlignment="Start" Margin="20,-7,0,-10"/>
+                   <Frame IsClippedToBounds="True" Padding="0" Margin="15" CornerRadius="17" HasShadow="False" HeightRequest="40">
+                        <Picker x:Name="milkPicker" BackgroundColor="#f2e0bf" TextColor="#92623a" HorizontalTextAlignment="Center"/>
+                   </Frame>
+                   <Label Text="Flavor:" TextColor="#92623a" HorizontalTextAlignment="Start" Margin="20,-7,0,-10"/>
+                   <Frame IsClippedToBounds="True" Padding="0" Margin="15" CornerRadius="17" HasShadow="False" HeightRequest="40">
+                        <Picker x:Name="flavorPicker" BackgroundColor="#f2e0bf" TextColor="#92623a" HorizontalTextAlignment="Center"/>
+                   </Frame>
+                   <Label Text="Espresso Shots:" TextColor="#92623a" HorizontalTextAlignment="Start" Margin="20,-7,0,-10"/>
+                   <Frame IsClippedToBounds="True" Padding="0" Margin="20" CornerRadius="17" HasShadow="False" HeightRequest="40">
+                        <Picker x:Name="espressoPicker" BackgroundColor="#f2e0bf" TextColor="#92623a" HorizontalTextAlignment="Center" />
+                   </Frame>
+
+
+
+                </StackLayout>
+
+            </Frame>
+        </ScrollView>
+        <StackLayout VerticalOptions="EndAndExpand">
+             <Frame x:Name="addFrame" BackgroundColor="#a97653"  CornerRadius="25" Opacity=".7" Padding="10"  IsClippedToBounds="True">
+                <Button Text="Add to Cart"  FontAttributes="Bold" TextColor="Beige" FontSize="25"
+                        x:Name="addCart"
+                        Clicked="addCart_Clicked"
+                        /> 
+            </Frame>
+            <Frame x:Name="updateFrame" BackgroundColor="#a97653"  CornerRadius="25" Opacity=".7" Padding="10"  IsClippedToBounds="True" HeightRequest="23">
+                <Button  Text="Update"  FontAttributes="Bold" TextColor="Beige" FontSize="25"
+                        x:Name="save"
+                        Clicked="save_Clicked"
+                        /> 
+            </Frame>
+            <Frame x:Name="cancelFrame" BackgroundColor="#a97653"  CornerRadius="25" Opacity=".7" Padding="10"  IsClippedToBounds="True" HeightRequest="23">
+                <Button  Text="Cancel"  FontAttributes="Bold" TextColor="Beige" FontSize="25"
+                        x:Name="cancel"
+                        Clicked="cancel_Clicked"
+                        /> 
+            </Frame>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

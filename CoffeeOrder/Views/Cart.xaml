@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CoffeeOrder.Views.Cart"
+    NavigationPage.HasNavigationBar="False"
+    >
+    
+    <StackLayout BackgroundColor="#f7e7ce" Padding="10,30,10,15">
+       
+         <ListView x:Name="cartList" BackgroundColor="#faf2e4" Margin="15" IsVisible="True" HasUnevenRows="True">
+             <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="115">
+                            <ViewCell.ContextActions>
+                                <MenuItem x:Name="delete" Text="Delete" Clicked="delete_Clicked" CommandParameter="{Binding .}"></MenuItem>
+                                <MenuItem x:Name="edit" Text="Edit" Clicked="edit_Clicked" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame Margin="1.5" HasShadow="False" Padding="0" IsClippedToBounds="True" CornerRadius="10">
+                                    <Image Source="{Binding imagePath}" />
+
+                                </Frame>
+                                <StackLayout Orientation="Vertical" Margin="2">
+                                    <Label Text="{Binding name}" FontSize="Header" TextColor="#92623a"/>
+                                    <Label Text="{Binding size}" FontSize="Small" TextColor="#92623a"/>
+                                    <Label Text="{Binding milk}" FontSize="Small" TextColor="#92623a"/>
+                                    <Label Text="{Binding flavor}" FontSize="Small" TextColor="#92623a"  />
+                                    <Label Text="{Binding espressoShots}" FontSize="Small" TextColor="#92623a"/>
+
+
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                        
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+         </ListView>
+        
+        <Frame BackgroundColor="#a97653"  CornerRadius="25" Opacity=".7" Padding="10" VerticalOptions="EndAndExpand" HeightRequest="30">
+             <Button Text="Keep Browsing"  FontAttributes="Bold" TextColor="Beige" FontSize="25"
+                     x:Name="keepShopping"
+                     Clicked="keepShopping_Clicked"
+                     /> 
+        </Frame>
+        <Frame BackgroundColor="#a97653"  CornerRadius="25" Opacity=".7" Padding="10" VerticalOptions="EndAndExpand" HeightRequest="35">
+             <Button Text="Place Order"  FontAttributes="Bold" TextColor="Beige" FontSize="25"
+                     x:Name="orderButton"
+                     Clicked="orderButton_Clicked"
+                     /> 
+        </Frame>
+    
+    </StackLayout>
+</ContentPage>

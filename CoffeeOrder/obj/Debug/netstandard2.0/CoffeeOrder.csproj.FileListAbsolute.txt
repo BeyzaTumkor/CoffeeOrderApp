@@ -1,0 +1,17 @@
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/bin/Debug/netstandard2.0/CoffeeOrder.deps.json
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/bin/Debug/netstandard2.0/CoffeeOrder.dll
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/bin/Debug/netstandard2.0/ref/CoffeeOrder.dll
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/bin/Debug/netstandard2.0/CoffeeOrder.pdb
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.csproj.AssemblyReference.cache
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/Views/Cart.xaml.g.cs
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/Views/Customize.xaml.g.cs
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.AssemblyInfoInputs.cache
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.AssemblyInfo.cs
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.csproj.CoreCompileInputs.cache
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.dll
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/ref/CoffeeOrder.dll
+/Users/beyza/Documents/mobile dev/CoffeeOrder/CoffeeOrder/obj/Debug/netstandard2.0/CoffeeOrder.pdb

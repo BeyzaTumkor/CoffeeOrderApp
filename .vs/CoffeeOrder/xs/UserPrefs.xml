@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.CoffeeOrder.Android PreferredExecutionTarget="Android.nexus_9_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoffeeOrder/CrudOp/Crud.cs">
+    <Files>
+      <File FileName="CoffeeWebAPI/Controllers/Cart.cs" Line="1" Column="1" />
+      <File FileName="CoffeeOrder/CrudOp/Crud.cs" Line="26" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoffeeOrder" expanded="True">
+            <Node name="CoffeeOrder" expanded="True">
+              <Node name="CrudOp" expanded="True">
+                <Node name="Crud.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Cart.xaml" expanded="True" />
+                <Node name="Customize.xaml" expanded="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="CoffeeOrder.Android" expanded="True" />
+            <Node name="CoffeeWebAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CoffeeWebAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CoffeeOrder.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FD72F8C2-D7BA-48D2-9049-EBEC50A453E0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{5656A26C-1EA4-4A03-B838-46B72A8A27C3}" ItemName="CoffeeOrder.iOS" ConfigurationId="Default" />
+        <StartupItem ItemId="{C5E3DBA0-C257-4867-B811-F4A8A0D4506F}" ItemName="CoffeeWebAPI" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>
